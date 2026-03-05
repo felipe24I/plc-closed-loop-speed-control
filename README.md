@@ -46,5 +46,7 @@ The two PLCs exchange data using **TSEND/TRCV communication blocks**, allowing t
 ## Author
 
 Felipe Idárraga Quintero – Electronic Engineering
+
 Julian Felipe Gutierrez Ramirez – Electronic Engineering
+
 Universidad Nacional de Colombia
