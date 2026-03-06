@@ -41,6 +41,13 @@ They were sellected empirically
 
 **PID behaviour**
 
+<img width="626" height="402" alt="image" src="https://github.com/user-attachments/assets/cbea727f-c5d9-4cb0-9098-b19364266c2f" />
+
+**green line:** real value (sensor)
+
+**red line:** PID output (control signal)
+
+**black line:** Desired value (setpoint)
 
 ## Communication
 
