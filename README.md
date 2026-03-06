@@ -79,6 +79,8 @@ It is sending setpoint from the master PLC to slave PLC.
 
 **Segment 4 – TRCV_C Block named “feedback”**
 
+<img width="466" height="418" alt="image" src="https://github.com/user-attachments/assets/2e64ff8f-ea9a-4f1d-8b47-5b13aa14d974" />
+
 Here the master receives data from the slave ( measured RPM).
 
 ### Slave segments Siemens S7-1200
