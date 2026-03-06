@@ -87,6 +87,8 @@ Here the master receives data from the slave ( measured RPM).
 
 **Segment 1 – Slave TRCV**
 
+<img width="433" height="321" alt="image" src="https://github.com/user-attachments/assets/4e27299c-958f-49da-9101-63888805a3f2" />
+
 The TRCV block receives START/STOP signals from the master.
 
 **Segment 2 – Ladder Logic**
