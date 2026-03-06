@@ -73,6 +73,8 @@ It is sending start and stop data from the master PLC to slave PLC.
 
 **Segment 3 – Another TSEND_C Block**
 
+<img width="412" height="350" alt="image" src="https://github.com/user-attachments/assets/0fc080c5-8b4e-446e-bd09-36ddb1ae1c10" />
+
 It is sending setpoint from the master PLC to slave PLC.
 
 **Segment 4 – TRCV_C Block named “feedback”**
