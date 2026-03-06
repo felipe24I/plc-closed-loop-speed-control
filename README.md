@@ -25,6 +25,14 @@ The control loop is implemented using the **PID Compact block** in TIA Portal.
 * The PID output generates the analog control signal for the VFD
 * The controller runs in a **cyclic interrupt block** for deterministic timing
 
+**PID Compact block**
+
+**setpoint and the PID output (control signal) are normalized and scaled for proper operation.**
+
+**PID parameters**
+
+**PID behaviour**
+
 ## Communication
 
 The two PLCs exchange data using **TSEND/TRCV communication blocks**, allowing transmission of:
@@ -32,6 +40,42 @@ The two PLCs exchange data using **TSEND/TRCV communication blocks**, allowing t
 * START/STOP commands
 * Speed setpoint
 * Measured motor speed
+
+### Master segments
+
+**Segment 1 – TSEND_C Block**
+
+It is sending start and stop data from the master PLC to slave PLC.
+
+**Segment 2 – Simple START/STOP Ladder Logic with Interlock**
+ 
+ control of start/stop system operation from the master
+
+**Segment 3 – Another TSEND_C Block**
+
+It is sending setpoint from the master PLC to slave PLC.
+
+**Segment 4 – TRCV_C Block named “feedback”**
+
+Here the master receives data from the slave ( measured RPM).
+
+### Master segments
+
+**Segment 1 – Slave TRCV**
+
+The TRCV block receives START/STOP signals from the master.
+
+**Segment 2 – Ladder Logic**
+
+Simple START/STOP ladder logic used to activate or deactivate the motor from the HMI.
+
+**Segment 3 – TRCV**
+
+The TRCV block receives the desired RPM setpoint from the master.
+
+**Segment 4 – TSEND**
+
+The TSEND block sends the actual RPM measured by the slave back to the master.
 
 ## Tools
 
