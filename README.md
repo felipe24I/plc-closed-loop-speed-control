@@ -35,8 +35,12 @@ The control loop is implemented using the **PID Compact block** in TIA Portal.
 
 **PID parameters**
 
+They were sellected empirically
+
+<img width="387" height="254" alt="image" src="https://github.com/user-attachments/assets/2d4e1086-025d-46cc-8f5c-f09ca7d67305" />
 
 **PID behaviour**
+
 
 ## Communication
 
