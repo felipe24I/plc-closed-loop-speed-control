@@ -93,6 +93,8 @@ The TRCV block receives START/STOP signals from the master.
 
 **Segment 2 – Ladder Logic**
 
+<img width="435" height="150" alt="image" src="https://github.com/user-attachments/assets/d4d4c05f-baf7-47a6-9639-d3be4c37bad5" />
+
 Simple START/STOP ladder logic used to activate or deactivate the motor from the HMI.
 
 **Segment 3 – TRCV**
