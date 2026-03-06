@@ -43,7 +43,7 @@ They were sellected empirically
 
 <img width="626" height="402" alt="image" src="https://github.com/user-attachments/assets/cbea727f-c5d9-4cb0-9098-b19364266c2f" />
 
-**green line:** real value (sensor)
+**green line:** Real value (sensor)
 
 **red line:** PID output (control signal)
 
@@ -57,7 +57,7 @@ The two PLCs exchange data using **TSEND/TRCV communication blocks**, allowing t
 * Speed setpoint
 * Measured motor speed
 
-### Master segments
+### Master segments Siemens S7-1500
 
 **Segment 1 – TSEND_C Block**
 
@@ -75,7 +75,7 @@ It is sending setpoint from the master PLC to slave PLC.
 
 Here the master receives data from the slave ( measured RPM).
 
-### Master segments
+### Slave segments Siemens S7-1200
 
 **Segment 1 – Slave TRCV**
 
