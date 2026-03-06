@@ -105,6 +105,8 @@ The TRCV block receives the desired RPM setpoint from the master.
 
 **Segment 4 – TSEND**
 
+<img width="434" height="381" alt="image" src="https://github.com/user-attachments/assets/5d946bea-9d12-4c6d-907e-f44dc4a9eac1" />
+
 The TSEND block sends the actual RPM measured by the slave back to the master.
 
 ## Tools
