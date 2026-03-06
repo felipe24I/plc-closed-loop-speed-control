@@ -99,6 +99,8 @@ Simple START/STOP ladder logic used to activate or deactivate the motor from the
 
 **Segment 3 – TRCV**
 
+<img width="433" height="390" alt="image" src="https://github.com/user-attachments/assets/221724a3-d918-4f02-9d16-c56f30ec6ea3" />
+
 The TRCV block receives the desired RPM setpoint from the master.
 
 **Segment 4 – TSEND**
