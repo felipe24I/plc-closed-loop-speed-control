@@ -31,9 +31,10 @@ The control loop is implemented using the **PID Compact block** in TIA Portal.
 
 **setpoint and the PID output (control signal) are normalized and scaled for proper operation.**
 
-
+<img width="532" height="358" alt="image" src="https://github.com/user-attachments/assets/db8f6482-b64f-4329-a042-36cc06671fe6" />
 
 **PID parameters**
+
 
 **PID behaviour**
 
