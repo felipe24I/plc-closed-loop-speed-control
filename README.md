@@ -61,6 +61,8 @@ The two PLCs exchange data using **TSEND/TRCV communication blocks**, allowing t
 
 **Segment 1 – TSEND_C Block**
 
+<img width="398" height="295" alt="image" src="https://github.com/user-attachments/assets/afa64cb3-d22b-43c6-ad1f-9c880cb8ad0c" />
+
 It is sending start and stop data from the master PLC to slave PLC.
 
 **Segment 2 – Simple START/STOP Ladder Logic with Interlock**
