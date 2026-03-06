@@ -7,7 +7,7 @@ Implementation of a closed-loop speed control system for a three-phase motor usi
 This project implements a closed-loop speed control architecture using a master–slave PLC configuration. The system regulates the motor speed using a PID controller and real-time feedback from an external speed measurement system.
 
 ## System Architecture
-https://github.com/felipe24I/plc-closed-loop-speed-control/blob/main/images/System_architecture/system_architecture.png?raw=true
+<img width="1134" height="520" alt="image" src="https://github.com/user-attachments/assets/486a4789-b8cf-43f9-bec1-5eeb1a40ed89" />
 
 * **Master PLC:** Siemens S7-1500 – setpoint generation, monitoring, and system supervision
 * **Slave PLC:** Siemens S7-1200 – motor control and PID execution
